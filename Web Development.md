@@ -77,4 +77,5 @@ HTMl DOM : chuẩn hóa các phương thức truy cập các phần tử HTML ( 
    - Đọc/Ghi dữ liệu nhanh , hỗ trợ nhiều giao dịch đồng thời 
    - Dữ liệu chi tiết , được chuẩn hóa để tránh dư thừa 
    - Ví dụ : Hệ thống quản lí đơn hàng , ứng dụng ngân hàng trực tiếp
-![alt text](/img/database.png)
+   
+   ![alt text](/img/database.png)
