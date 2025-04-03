@@ -56,7 +56,25 @@ HTMl DOM : chuẩn hóa các phương thức truy cập các phần tử HTML ( 
 
 5. RESTful API
 - API tuân thủ nguyên tắc REST , sử dụng HTTP methods (get ,post,put, delete) thao tác crud
+
 6. Các phương thức http reqquest khác có 9 phương thức :
 - get, post , put , delete , head, patch, connect, options, trace 
 - vi du : patch dùng để cập nhật một phần dữ liệu , khác với put ghi đè toàn bộ
 
+7. Cookie, Session, Local Storage, Session Storage 
++ Cookie : Lưu trên trình duyệt , gửi tự động server và đính cookie , hạn sử dụng lâu
++ Session : Lưu trên server, hết hiệu lực khi đóng trình duyệt
++ Loacal Storage : Lưu trữ dữ liệu lâu dài ( 10 mb)
++ Session Storage : Chỉ tồn tại một phiên làm việc 
+8. OLAP vs. OLTP
++ OLAP (Online Analytical Processing) :
+   - Phân tích dữ liệu 
+   - Thực hiện nhiều truy vấn phức tạp , đọc nhiều hơn ghi
+   - Dữ liệu tổng hợp , tổ chức mô hình dữ liệu ( Data Warehouse)
+   - Ví dụ : Báo cáo doanh số 
++ OLTP (Online Transaction Processing)
+   - Xử lí giao dịch trực tuyến 
+   - Đọc/Ghi dữ liệu nhanh , hỗ trợ nhiều giao dịch đồng thời 
+   - Dữ liệu chi tiết , được chuẩn hóa để tránh dư thừa 
+   - Ví dụ : Hệ thống quản lí đơn hàng , ứng dụng ngân hàng trực tiếp
+![alt text](/img/database.png)
