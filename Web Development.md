@@ -45,3 +45,18 @@
         + Containerization & Orchestration: Docker, Kubernetes.
         + Giám sát & Logging: Prometheus, Grafana, ELK Stack.
         + Hạ tầng & Cloud: AWS, GCP, Azure, Terraform, Ansible.
+3. 
+DOM (Document Object Model) : Api Biểu  diễn tài liệu HTML/XML dưới dạng cây cấu trúc cho phép tạo phần tử 
+
+HTMl DOM : chuẩn hóa các phương thức truy cập các phần tử HTML ( properties ,methods , events)
+
+4. CORS : ( Cross-Origin Resource Sharing )
+- Cơ chế cho phép truy cập tài nguyên từ domain khác vượt qua chính sách Same-Origin của trình duyệt 
+- Ví dụ : Gọi Api từ domain khác cần cấu hình cors headers
+
+5. RESTful API
+- API tuân thủ nguyên tắc REST , sử dụng HTTP methods (get ,post,put, delete) thao tác crud
+6. Các phương thức http reqquest khác có 9 phương thức :
+- get, post , put , delete , head, patch, connect, options, trace 
+- vi du : patch dùng để cập nhật một phần dữ liệu , khác với put ghi đè toàn bộ
+
